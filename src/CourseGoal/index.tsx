@@ -28,9 +28,9 @@ interface CourseProps {
 
 const CourseGoal: FC<CourseProps> = ({title, description}) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{description}</p>
+    <div className="bg-white p-6 rounded-lg shadow-lg mt-6">
+      <h1 className="text-xl font-bold mb-2">{title}</h1>
+      <p className="text-gray-700">{description}</p>
     </div>
   );
 };
