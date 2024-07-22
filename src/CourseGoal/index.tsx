@@ -31,6 +31,12 @@ const CourseGoal: FC<CourseProps> = ({title, description}) => {
     <div className="bg-white p-6 rounded-lg shadow-lg mt-6">
       <h1 className="text-xl font-bold mb-2">{title}</h1>
       <p className="text-gray-700">{description}</p>
+      <button
+        type="button"
+        className="p-1  mt-2 rounded-md border border-red-600 px-3 py-2 text-sm font-semibold text-red-600 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+      >
+        Delete
+      </button>
     </div>
   );
 };
