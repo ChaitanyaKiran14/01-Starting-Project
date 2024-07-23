@@ -7,6 +7,7 @@ import { FC } from "react";
 // type CourseProps  = {
 //   title : string;
 //   description : string;
+//ok
 
 // }  we can either  ue type or interface
 
