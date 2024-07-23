@@ -1,7 +1,9 @@
 import { useState } from "react";
 import GoalList from "../CourseGoalList/goalList";
 
-type OwnGoal = {
+//we are exporting it because same type is being used in the goalList component and we are passing it as prop to GoalList
+
+export type OwnGoal = {
   id: number;
   goalTitle: string;
   goalDescription: string;

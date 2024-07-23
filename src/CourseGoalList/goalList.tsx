@@ -1,4 +1,5 @@
 import CourseGoal from "../CourseGoal";
+import { type OwnGoal } from "../Input2";  //used that type decorator to avoid conflicts late
 type GoalListProps = {
   goals: {
     goalTitle: string;
