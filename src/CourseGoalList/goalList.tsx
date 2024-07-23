@@ -1,8 +1,8 @@
 import CourseGoal from "../CourseGoal";
 type GoalListProps = {
   goals: {
-    title: string;
-    description: string;
+    goalTitle: string;
+    goalDescription: string;
     id: number;
   }[];
 };
@@ -15,8 +15,8 @@ const GoalList  = ({goals} : GoalListProps) => {
         {goals.map((each) => (
           <CourseGoal
             key={each.id}
-            title={each.title}
-            description={each.description}
+            title={each.goalTitle}
+            description={each.goalDescription}
           />
         ))}
       </ul>
